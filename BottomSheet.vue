@@ -7,7 +7,7 @@
         role="dialog"
         aria-labelledby="modal-label"
         aria-hidden="true"
-        :style="['padding: 3px 3px;',modalStyle]"
+        :style="[{padding: '3px'},modalStyle]"
       >
         <slot></slot>
       </aside>
